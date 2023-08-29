@@ -36,7 +36,7 @@ namespace MathPlugin
                 response.WriteString(result.ToString(CultureInfo.CurrentCulture));
 
                 _logger.LogInformation($"Numbers are {number1} and {number2}");
-                _logger.LogInformation($"Add function processed a request. Result: {result}");
+                _logger.LogInformation($"Multiply function processed a request. Result: {result}");
 
                 return response;
             }
